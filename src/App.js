@@ -9,7 +9,7 @@ function App() {
   return (
       <div className="container">
           <Router>
-              <div className="col-md-12">
+              <div>
                   <h1 className="text-center" style={style}></h1>
                   <Switch>
                       <Route path="/" exact component={Home} />
